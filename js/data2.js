@@ -55,12 +55,11 @@ require(
                 x: 'center',
                 y: 'center',
                 data: [
-                    'GoogleMaps', 'Facebook', 'Youtube', 'Google+', 'Weixin',
-                    'Twitter', 'Skype', 'Messenger', 'Whatsapp', 'Instagram'
+                    '优', '良', '污染'
                 ]
             },
             title: {
-                text: 'The App World',
+                text: '质量等级',
                 subtext: 'from global web index',
                 x: 'center'
             },
@@ -97,117 +96,35 @@ require(
             series: [
                 {
                     type: 'pie',
-                    center: ['10%', '30%'],
+                    center: ['20%', '30%'],
                     radius: radius,
                     x: '0%', // for funnel
                     itemStyle: labelFromatter,
                     data: [
-                        {name: 'other', value: 46, itemStyle: labelBottom},
-                        {name: 'GoogleMaps', value: 54, itemStyle: labelTop}
-                    ]
-                },
-                {
-                    type: 'pie',
-                    center: ['30%', '30%'],
-                    radius: radius,
-                    x: '20%', // for funnel
-                    itemStyle: labelFromatter,
-                    data: [
-                        {name: 'other', value: 56, itemStyle: labelBottom},
-                        {name: 'Facebook', value: 44, itemStyle: labelTop}
+                        {name: 'other', value: 91.32, itemStyle: labelBottom},
+                        {name: '优', value: 9.68, itemStyle: labelTop}
                     ]
                 },
                 {
                     type: 'pie',
                     center: ['50%', '30%'],
                     radius: radius,
-                    x: '40%', // for funnel
+                    x: '33%', // for funnel
                     itemStyle: labelFromatter,
                     data: [
-                        {name: 'other', value: 65, itemStyle: labelBottom},
-                        {name: 'Youtube', value: 35, itemStyle: labelTop}
+                        {name: 'other', value: 29.03, itemStyle: labelBottom},
+                        {name: '良', value: 70.97, itemStyle: labelTop}
                     ]
                 },
                 {
                     type: 'pie',
-                    center: ['70%', '30%'],
+                    center: ['80%', '30%'],
                     radius: radius,
-                    x: '60%', // for funnel
+                    x: '66%', // for funnel
                     itemStyle: labelFromatter,
                     data: [
-                        {name: 'other', value: 70, itemStyle: labelBottom},
-                        {name: 'Google+', value: 30, itemStyle: labelTop}
-                    ]
-                },
-                {
-                    type: 'pie',
-                    center: ['90%', '30%'],
-                    radius: radius,
-                    x: '80%', // for funnel
-                    itemStyle: labelFromatter,
-                    data: [
-                        {name: 'other', value: 73, itemStyle: labelBottom},
-                        {name: 'Weixin', value: 27, itemStyle: labelTop}
-                    ]
-                },
-                {
-                    type: 'pie',
-                    center: ['10%', '70%'],
-                    radius: radius,
-                    y: '55%',   // for funnel
-                    x: '0%',    // for funnel
-                    itemStyle: labelFromatter,
-                    data: [
-                        {name: 'other', value: 78, itemStyle: labelBottom},
-                        {name: 'Twitter', value: 22, itemStyle: labelTop}
-                    ]
-                },
-                {
-                    type: 'pie',
-                    center: ['30%', '70%'],
-                    radius: radius,
-                    y: '55%',   // for funnel
-                    x: '20%',    // for funnel
-                    itemStyle: labelFromatter,
-                    data: [
-                        {name: 'other', value: 78, itemStyle: labelBottom},
-                        {name: 'Skype', value: 22, itemStyle: labelTop}
-                    ]
-                },
-                {
-                    type: 'pie',
-                    center: ['50%', '70%'],
-                    radius: radius,
-                    y: '55%',   // for funnel
-                    x: '40%', // for funnel
-                    itemStyle: labelFromatter,
-                    data: [
-                        {name: 'other', value: 78, itemStyle: labelBottom},
-                        {name: 'Messenger', value: 22, itemStyle: labelTop}
-                    ]
-                },
-                {
-                    type: 'pie',
-                    center: ['70%', '70%'],
-                    radius: radius,
-                    y: '55%',   // for funnel
-                    x: '60%', // for funnel
-                    itemStyle: labelFromatter,
-                    data: [
-                        {name: 'other', value: 83, itemStyle: labelBottom},
-                        {name: 'Whatsapp', value: 17, itemStyle: labelTop}
-                    ]
-                },
-                {
-                    type: 'pie',
-                    center: ['90%', '70%'],
-                    radius: radius,
-                    y: '55%',   // for funnel
-                    x: '80%', // for funnel
-                    itemStyle: labelFromatter,
-                    data: [
-                        {name: 'other', value: 89, itemStyle: labelBottom},
-                        {name: 'Instagram', value: 11, itemStyle: labelTop}
+                        {name: 'other', value: 80.65, itemStyle: labelBottom},
+                        {name: '污染', value: 19.35, itemStyle: labelTop}
                     ]
                 }
             ]

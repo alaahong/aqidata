@@ -9,8 +9,8 @@ require(
 
         var option = {
             title: {
-                text: '某站点用户访问来源',
-                subtext: '纯属虚构',
+                text: '质量等级',
+                subtext: '程度',
                 x: 'center'
             },
             tooltip: {
@@ -20,7 +20,7 @@ require(
             legend: {
                 orient: 'vertical',
                 x: 'left',
-                data: ['直接访问', '邮件营销', '联盟广告', '视频广告', '搜索引擎']
+                data: ['优', '良', '污染']
             },
             toolbox: {
                 show: true,
@@ -46,16 +46,14 @@ require(
             calculable: true,
             series: [
                 {
-                    name: '访问来源',
+                    name: '质量等级',
                     type: 'pie',
                     radius: '55%',
                     center: ['50%', '60%'],
                     data: [
-                        {value: 335, name: '直接访问'},
-                        {value: 310, name: '邮件营销'},
-                        {value: 234, name: '联盟广告'},
-                        {value: 135, name: '视频广告'},
-                        {value: 1548, name: '搜索引擎'}
+                        {value: 3, name: '优'},
+                        {value: 22, name: '良'},
+                        {value: 6, name: '污染'}
                     ]
                 }
             ]
