@@ -18,6 +18,7 @@ var option = {
     },
     toolbox: {
         show: true,
+        orient: 'vertical',
         feature: {
             mark: {show: true},
             dataView: {show: true, readOnly: false},
