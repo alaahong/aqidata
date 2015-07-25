@@ -46,8 +46,8 @@ var labelBottom = {
 var radius = [40, 55];
 option = {
     legend: {
-        x: 'center',
-        y: 'center',
+        orient: 'vertical',
+        x: 'left',
         data: [
             '优', '良', '污染'
         ]
@@ -59,6 +59,7 @@ option = {
     },
     toolbox: {
         show: true,
+        orient: 'vertical',
         feature: {
             dataView: {show: true, readOnly: false},
             magicType: {
